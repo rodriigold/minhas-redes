@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main
+{
+    height: 100vh;
+    position: relative;
+}
+
+#telefone
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-image: url(../imagens/telefone-frame.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 300px;
+    height: 627px;
+}
