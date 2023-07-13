@@ -14,6 +14,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 main
@@ -33,6 +34,44 @@ main
     background-repeat: no-repeat;
     background-position: center center;
 
-    width: 300px;
-    height: 627px;
+    width: 291px;
+    height: 606px;
+}
+
+#tela
+{
+    position: relative;
+    top: 40px;
+    left: 12.25px;
+
+    width: 265.5px;
+    height: 524.25px;
+}
+
+#apps 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#apps img
+{
+    width: 50px;
+    margin: 10px 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+#apps img:hover
+{
+    outline: 1px solid #ffffff;
+    transform: scale(110%);
+    transition-duration: 0.25s;
+}
+
+#apps img:active
+{
+    transform: scale(90%);
+    transition-duration: 0.1s;
 }
